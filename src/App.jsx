@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PlixGames from "./views/home"
+import { Analytics } from "@vercel/analytics/react";
 import './index.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <PlixGames/>
+      <Analytics />
     </div>
   )
 }
