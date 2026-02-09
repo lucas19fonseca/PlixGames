@@ -143,7 +143,7 @@ const SearchBar = ({ value, onChange }) => {
   );
 };
 
-const GameCard = ({ game, index }) => {
+const GameCard = ({ game }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
