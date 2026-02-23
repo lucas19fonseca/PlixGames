@@ -9,6 +9,7 @@ import imgFoguete from '../assets/foguete.png';
 import imgAnt from '../assets/ant.png';
 import imgGameOfLife from '../assets/game-of-life.png';
 import imgVillage from '../assets/village.png';
+import Megaman from '../assets/megaman.png';
 
 const Navbar = ({ onShowAbout, onShowStats }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -381,6 +382,18 @@ export default function PlixGames() {
       ],
       description: 'Navegue por labirintos em 3D com uma perspectiva totalmente nova.',
       url: 'https://chris-redfield.github.io/maze-explorer3'
+    },
+    {
+      name: 'Mega Man',
+      keywords: 'mega man megaman ação plataforma',
+      image: Megaman,
+      gradient: 'from-blue-600 to-cyan-600',
+      tags: [
+        { text: 'Ação', color: 'bg-blue-600' },
+        { text: 'Plataforma', color: 'bg-gray-800' }
+      ],
+      description: 'Jogue como Mega Man e enfrente inimigos em um clássico de plataforma e ação!',
+      url: 'https://chris-redfield.github.io/mega-human/'
     },
     {
       name: 'The Dark Garden of Z',
